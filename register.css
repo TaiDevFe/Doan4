@@ -1,0 +1,35 @@
+
+.container {
+    display: grid;
+    place-items: center;     /* Căn giữa theo cả chiều ngang và chiều dọc */
+    height: 100vh;    
+}
+.tieude{
+    color: #CC0000;
+    margin-top: 50px;
+}
+.register{
+    border: 2px solid black;
+    padding: 50px 60px;
+    border-radius: 30px;
+    background-color: #c9c9c962;
+    
+}
+.btn-dangki{
+    margin-top: 30px;
+    text-align: center;
+}
+.btn-dangki>button{
+    background-color: red;
+    border: red;
+}
+.btn-dangki>button:hover{
+    background-color: #CC0000;
+}
+.dieukhoan{
+    text-decoration: none;
+}
+.mb-3{
+    color: #CC0000;
+    font-weight: 400;
+}
