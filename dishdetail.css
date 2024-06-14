@@ -1,0 +1,55 @@
+.container{
+    margin-top: 100px;
+}
+.tieude{
+    margin-left: 130px;
+}
+.tieude>p{
+    font-weight: bold;
+    color: #CC0000;
+}
+ul>li.list-img>a img{
+    width: 150px;
+    border-radius: 10px;
+}
+.list-img{
+    list-style: none;
+}
+ul>li.list-img>img:hover{
+    cursor: pointer;
+}
+.anh-face{
+    width: 500px;   
+}
+.thongtin{
+    text-align: left;
+}
+.thongtin>h2{
+    color: #CC0000;
+    font-weight: 700;
+}
+.thongtin>h3{
+    font-weight: 600;
+    font-weight: bolder;
+}
+.btn-themvaogiohang{
+    margin-top: 20px;
+    
+}
+.btn-themvaogiohang>button{
+    padding: 7px 10px;
+    border-radius: 20px;
+    background-color: #CC0000;
+    color: azure;  
+    transition: all 0.3s;  
+    border:#CC0000;
+}
+.btn-themvaogiohang>button:hover{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 14px;
+}
+.mota{
+    margin-top: 15px;
+}
+
