@@ -1,14 +1,30 @@
-
+.navbar{
+    background-color: rgb(200, 207, 207);
+    height: 60px;
+    border-top: 5px solid #CC0000;
+    justify-content: center;
+}
+.lg{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:Georgia;
+    color: #CC0000;
+}
 .container {
-    display: grid;
-    place-items: center;     /* Căn giữa theo cả chiều ngang và chiều dọc */
-    height: 100vh;    
+    /* display: grid;
+    place-items: center;    
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    margin-top:40px ;    
 }
 .tieude{
     color: #CC0000;
-    margin-top: 50px;
+    text-align: center;
 }
-.register{
+.formregister{
+    margin: 30px;
     border: 2px solid black;
     padding: 50px 60px;
     border-radius: 30px;
